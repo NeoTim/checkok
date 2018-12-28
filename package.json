@@ -1,7 +1,7 @@
 {
-  "name": "ckjs",
+  "name": "checkok",
   "version": "1.0.0",
-  "description": "common lib boilerplate",
+  "description": "An elegant and scalable validator",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -50,14 +50,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/forsigner/ckjs.git"
+    "url": "git+ssh://git@github.com/forsigner/checkok.git"
   },
   "author": "forsigner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forsigner/ckjs/issues"
+    "url": "https://github.com/forsigner/checkok/issues"
   },
-  "homepage": "https://github.com/forsigner/ckjs#README",
+  "homepage": "https://github.com/forsigner/checkok#README",
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
     "@commitlint/config-conventional": "^7.1.2",

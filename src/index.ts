@@ -1,7 +1,24 @@
-type F = () => any
-const fn: F = () => {
-  const bar = 'bar'
-  console.log(`foo ${bar}!`)
+interface Result {
+  pass: boolean
+  message?: string
 }
 
-export default fn
+type Fn<Value> = (value: Value) => Result
+
+export const check = <Value extends any>(value: Value) => {
+  return {
+    pipe: (...args: Array<Fn<Value>>): Result => {
+      let result: Result = { pass: true }
+
+      for (const fn of args) {
+        const fnValue = fn(value)
+        if (!fnValue.pass) {
+          result = fnValue
+          break
+        }
+      }
+
+      return result
+    },
+  }
+}
