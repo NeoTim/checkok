@@ -1,7 +1,9 @@
+const isString = (value: any) => {
+  return Object.prototype.toString.call(value) === '[object String]'
+}
+
 const string = (message?: string) => (value: any) => {
-  if (typeof value === 'string') {
-    return { pass: true }
-  }
-  return { pass: false, message: message || '' }
+  if (isString(value)) return { ok: true }
+  return { ok: false, message: message || '' }
 }
 export default string
