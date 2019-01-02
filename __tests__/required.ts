@@ -1,5 +1,5 @@
 import { check } from '../src'
-import required from '../src/required'
+import required from '../src/rules/required'
 
 test('required() success', () => {
   const result = check('foo').pipe(required('required'))

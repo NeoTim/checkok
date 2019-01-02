@@ -1,5 +1,5 @@
 import { check } from '../src'
-import number from '../src/number'
+import number from '../src/rules/number'
 
 const msg = 'should a number'
 

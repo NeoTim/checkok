@@ -1,5 +1,5 @@
 import { check } from '../src'
-import string from '../src/string'
+import string from '../src/rules/string'
 
 const msg = 'should a string'
 
