@@ -1,0 +1,78 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.8.4',
+0 silly argv   '$0': '/usr/local/bin/lerna' }
+1 notice cli v3.8.4
+2 verbose rootPath /Users/forsigner/repos/dahlia/checkok
+3 verbose session da19ac8f38f3f9eb
+4 verbose user-agent lerna/3.8.4/node@v10.9.0+x64 (darwin)
+5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.8.4' }
+6 verbose rootPath /Users/forsigner/repos/dahlia/checkok
+7 info current version 0.0.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly currentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 3
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "v1.0.0-4-g18cce89" => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"4","sha":"18cce89","isDirty":false}
+18 info Looking for changed packages since v1.0.0
+19 silly diffSinceIn v1.0.0 packages/core
+20 silly diff packages/core/index.js
+20 silly diff packages/core/package.json
+21 verbose updated @checkok/core
+22 verbose git-describe undefined => "v1.0.0-4-g18cce89"
+23 silly git-describe parsed => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"4","sha":"18cce89","isDirty":false}
+24 silly batched [ PackageGraphNode {
+24 silly batched     name: '@checkok/core',
+24 silly batched     externalDependencies: Map {},
+24 silly batched     localDependencies: Map {},
+24 silly batched     localDependents: Map {} } ]
+25 silly lifecycle No script for "preversion" in "root", continuing
+26 silly lifecycle No script for "preversion" in "@checkok/core", continuing
+27 silly lifecycle No script for "version" in "@checkok/core", continuing
+28 silly lifecycle No script for "version" in "root", continuing
+29 silly gitAdd [ '/Users/forsigner/repos/dahlia/checkok/packages/core/package.json',
+29 silly gitAdd   '/Users/forsigner/repos/dahlia/checkok/lerna.json' ]
+30 silly gitCommit v0.1.0-alpha.0
+31 verbose git [ 'commit', '-m', 'v0.1.0-alpha.0' ]
+32 silly gitTag v0.1.0-alpha.0
+33 verbose git [ 'tag', 'v0.1.0-alpha.0', '-m', 'v0.1.0-alpha.0' ]
+34 silly lifecycle No script for "postversion" in "@checkok/core", continuing
+35 silly lifecycle No script for "postversion" in "root", continuing
+36 info git Pushing tags...
+37 silly gitPush origin master
+38 silly batched [ PackageGraphNode {
+38 silly batched     name: '@checkok/core',
+38 silly batched     externalDependencies: Map {},
+38 silly batched     localDependencies: Map {},
+38 silly batched     localDependents: Map {} } ]
+39 info publish Publishing packages to npm...
+40 info Verifying npm credentials
+41 verbose Retrieving npm user profile
+42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1141ms
+43 silly npm profile get received {"tfa":false,"name":"forsigner","email":"forsigner@gmail.com","email_verified":true,"created":"2015-02-26T01:41:27.453Z","updated":"2018-08-13T13:37:41.697Z","cidr_whitelist":null}
+44 silly npm whoami received {"username":"forsigner"}
+45 silly verifyNpmPackageAccess
+46 http fetch GET 200 https://registry.npmjs.org/-/org/forsigner/package?format=cli 250ms
+47 warn ENOLICENSE Packages @checkok/core are missing a license
+48 silly getCurrentSHA
+49 verbose getCurrentSHA 52b99ba367b377ed9140f106f524e97b03c04979
+50 silly lifecycle No script for "prepublish" in "root", continuing
+51 silly lifecycle No script for "prepare" in "root", continuing
+52 silly lifecycle No script for "prepublishOnly" in "root", continuing
+53 silly lifecycle No script for "prepack" in "root", continuing
+54 verbose pack-directory packages/core
+55 silly lifecycle No script for "prepublish" in "@checkok/core", continuing
+56 silly lifecycle No script for "prepare" in "@checkok/core", continuing
+57 silly lifecycle No script for "prepublishOnly" in "@checkok/core", continuing
+58 silly lifecycle No script for "prepack" in "@checkok/core", continuing
+59 silly lifecycle No script for "postpack" in "@checkok/core", continuing
+60 silly lifecycle No script for "postpack" in "root", continuing
+61 verbose publish @checkok/core
+62 http fetch PUT 402 https://registry.npmjs.org/@checkok%2fcore 354ms
+63 error Error: 402 Payment Required - PUT https://registry.npmjs.org/@checkok%2fcore - You must sign up for private packages
+63 error     at res.buffer.catch.then.body (/Users/forsigner/.config/yarn/global/node_modules/npm-registry-fetch/check-response.js:104:15)

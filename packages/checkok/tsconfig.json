@@ -15,5 +15,5 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true
   },
-  "exclude": ["node_modules", "dist", "__tests__"]
+  "exclude": ["node_modules", "dist", "rules", "example", "__tests__"]
 }

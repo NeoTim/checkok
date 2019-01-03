@@ -1,3 +1,7 @@
+import string from './rules/string'
+import number from './rules/number'
+import required from './rules/required'
+
 interface Result {
   ok: boolean
   message?: string
@@ -5,7 +9,7 @@ interface Result {
 
 type Fn<Value> = (value: Value) => Result
 
-export const check = <Value extends any>(value: Value) => {
+const check = <Value extends any>(value: Value) => {
   return {
     pipe: (...args: Array<Fn<Value>>): Result => {
       let result: Result = { ok: true }
@@ -22,3 +26,5 @@ export const check = <Value extends any>(value: Value) => {
     },
   }
 }
+
+export { check, string, number, required }

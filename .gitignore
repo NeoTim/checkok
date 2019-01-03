@@ -4,6 +4,7 @@ coverage/
 
 yarn-error.log
 npm-debug.log
+lerna-debug.log
 
 .rpt2_cache/
 .history
