@@ -9,8 +9,7 @@
     "build": "npm run clean && rollup -c",
     "build:watch": "npm run clean && rollup -c -w",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test:watch": "jest --watch"
   },
   "jest": {
     "preset": "ts-jest",
@@ -37,9 +36,7 @@
   "homepage": "https://github.com/forsigner/checkok#README",
   "devDependencies": {
     "@types/jest": "^23.3.10",
-    "coveralls": "^3.0.2",
     "jest": "^23.6.0",
-    "prettier": "^1.15.3",
     "rimraf": "^2.6.2",
     "rollup": "^0.67.3",
     "rollup-plugin-typescript2": "^0.18.0",
