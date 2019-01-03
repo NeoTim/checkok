@@ -1,4 +1,4 @@
-import { check } from '../src'
+import { check } from 'checkok'
 import string from 'checkok-string'
 
 const msg = 'should a string'

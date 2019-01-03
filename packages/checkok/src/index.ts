@@ -1,7 +1,3 @@
-import string from './rules/string'
-import number from './rules/number'
-import required from './rules/required'
-
 interface Result {
   ok: boolean
   message?: string
@@ -27,4 +23,4 @@ const check = <Value extends any>(value: Value) => {
   }
 }
 
-export { check, string, number, required }
+export { check }

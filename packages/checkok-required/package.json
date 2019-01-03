@@ -1,5 +1,5 @@
 {
-  "name": "checkok",
+  "name": "checkok-required",
   "version": "0.0.1-alpha.0",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",

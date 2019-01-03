@@ -13,4 +13,3 @@ lerna-debug.log
 *.swp
 
 dist/
-rules/

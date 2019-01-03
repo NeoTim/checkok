@@ -1,4 +1,4 @@
-import { check } from '../src'
+import { check } from 'checkok'
 import required from 'checkok-required'
 
 test('required() success', () => {
