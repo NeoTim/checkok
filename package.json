@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
-    "clean:dist": "rimraf dist/*",
-    "build": "npm run clean:dist && rollup -c",
-    "build:watch": "npm run clean:dist && rollup -c -w",
+    "clean": "rimraf index.* rules/* dist/*",
+    "build": "npm run clean && rollup -c",
+    "build:watch": "npm run clean && rollup -c -w",
     "format": "prettier --write \"src/**/*.{js,ts,tsx}\"",
     "format:check": "prettier --list-different \"src/**/*.{js,ts,tsx}\"",
     "lint": "tslint -c tslint.json \"src/**/*.{ts,tsx}\"",
@@ -45,8 +45,9 @@
   },
   "files": [
     "LICENSE",
+    "README.md",
     "dist",
-    "lib"
+    "rules"
   ],
   "repository": {
     "type": "git",
