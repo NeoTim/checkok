@@ -1,5 +1,5 @@
 import { check } from 'checkok'
-import required from 'checkok-required'
+import required from '../src'
 
 test('required() success', () => {
   const result = check('foo').pipe(required('required'))

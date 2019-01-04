@@ -1,5 +1,5 @@
-import { check } from '../src'
 import string from 'checkok-string'
+import { check } from '../src'
 
 const msg = 'should a string'
 
