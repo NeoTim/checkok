@@ -1,20 +1,20 @@
-# checkok-string
+# checkok-max
 
 ## Installation
 
 ```sh
-yarn add checkok checkok-string
+yarn add checkok checkok-max
 ```
 
 ## Usage
 
 ```js
 import { check } from 'checkok'
-import string from 'checkok-string'
+import max from 'checkok-max'
 
-const result = check(123).pipe(string('should be a string'))
+const result = check('foobar').pipe(max(10, 'some, msg'))
 
-console.log(result) // { ok: false, message: 'should be a string' }
+console.log(result) // { ok: true }
 ```
 
 ## License
