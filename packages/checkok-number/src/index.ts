@@ -1,11 +1,8 @@
-const isNumber = (value: any) => {
-  return Object.prototype.toString.call(value) === '[object Number]'
-}
+import isNumber from 'util-is-number'
+import result from 'util-result'
 
 const number = (message?: string) => (value: any) => {
-  if (isNumber(value)) return { ok: true }
-
-  return { ok: false, message: message || '' }
+  return result(isNumber(value), message)
 }
 
 export default number

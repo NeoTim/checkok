@@ -1,6 +1,6 @@
-const required = (message?: string) => (value: any) => {
-  if (`${value}`.length) return { ok: true }
+import result from 'util-result'
 
-  return { ok: false, message: message || '' }
+const required = (message?: string) => (value: any) => {
+  return result(!!`${value}`.length, message)
 }
 export default required

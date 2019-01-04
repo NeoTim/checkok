@@ -1,5 +1,5 @@
 {
-  "name": "checkok-string",
+  "name": "util-result",
   "version": "0.0.1",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",
@@ -34,8 +34,6 @@
     "url": "https://github.com/forsigner/checkok/issues"
   },
   "homepage": "https://github.com/forsigner/checkok#README",
-  "dependencies": {
-  },
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "jest": "^23.6.0",

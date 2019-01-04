@@ -1,9 +1,7 @@
-const isString = (value: any) => {
-  return Object.prototype.toString.call(value) === '[object String]'
-}
+import isString from 'util-is-string'
+import result from 'util-result'
 
 const string = (message?: string) => (value: any) => {
-  if (isString(value)) return { ok: true }
-  return { ok: false, message: message || '' }
+  return result(isString(value), message)
 }
 export default string

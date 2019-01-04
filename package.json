@@ -1,7 +1,6 @@
 {
   "name": "root",
   "description": "An elegant and scalable validator",
-  "private": true,
   "scripts": {
     "build": "lerna run --parallel --stream build",
     "build:watch": "lerna run --parallel --stream build:watch",
@@ -76,8 +75,5 @@
     "tslint-eslint-rules": "^5.4.0",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.2.1"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

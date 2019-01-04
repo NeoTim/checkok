@@ -18,7 +18,7 @@ export default {
       sourcemap: true,
     },
   ],
-  external: ['util-result'],
+  external: [],
   plugins: [
     typescript({
       rollupCommonJSResolveHack: true,
