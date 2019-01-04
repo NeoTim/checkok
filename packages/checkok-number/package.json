@@ -34,6 +34,10 @@
     "url": "https://github.com/forsigner/checkok/issues"
   },
   "homepage": "https://github.com/forsigner/checkok#README",
+  "dependencies": {
+    "util-is-number": "^0.0.2",
+    "util-result": "^0.0.2"
+  },
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "jest": "^23.6.0",
