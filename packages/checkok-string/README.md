@@ -1,29 +1,20 @@
-# Checkok
-
-[![npm](https://img.shields.io/npm/v/checkok.svg)](https://www.npmjs.com/package/checkok) [![Build Status](https://travis-ci.org/forsigner/checkok.svg?branch=master)](https://travis-ci.org/forsigner/checkok) [![Coverage Status](https://coveralls.io/repos/github/forsigner/checkok/badge.svg?branch=master)](https://coveralls.io/github/forsigner/checkok?branch=master)
-[![npm](https://img.shields.io/badge/TypeScript-%E2%9C%93-007ACC.svg)](https://www.typescriptlang.org/) [![GitHub license](https://img.shields.io/github/license/forsigner/checkok.svg)](https://github.com/forsigner/checkok/blob/master/LICENSE)
-
-> a lib
+# checkok-string
 
 ## Installation
 
 ```sh
-yarn add checkok
+yarn add checkok checkok-string
 ```
 
 ## Usage
 
 ```js
 import { check } from 'checkok'
-import { string, required, email } from 'checkok/rules'
+import string from 'checkok-string'
 
-const result = check('foo').pipe(
-  string(),
-  required(),
-  email(),
-)
+const result = check(123).pipe(string('should be a string'))
 
-console.log(result) // { ok: true }
+console.log(result) // { ok: false, message: 'should be a string' }
 ```
 
 ## License
