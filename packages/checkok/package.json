@@ -1,6 +1,6 @@
 {
   "name": "checkok",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -36,9 +36,9 @@
   "homepage": "https://github.com/forsigner/checkok#README",
   "devDependencies": {
     "@types/jest": "^23.3.10",
-    "checkok-required": "^0.0.2",
-    "checkok-string": "^0.0.2",
-    "checkok-number": "^0.0.2",
+    "checkok-number": "^0.0.3",
+    "checkok-required": "^0.0.3",
+    "checkok-string": "^0.0.3",
     "jest": "^23.6.0",
     "rimraf": "^2.6.2",
     "rollup": "^0.67.3",
