@@ -1,17 +1,17 @@
-# util-is-number
+# util-is-string
 
 ## Installation
 
 ```sh
-yarn add util-is-number
+yarn add util-is-string
 ```
 
 ## Usage
 
 ```js
-import isNumber from 'util-is-number'
+import isString from 'util-is-string'
 
-console.log(isNumber('foo')) // false
+console.log(isString('foo')) // true
 ```
 
 ## License

@@ -1,17 +1,17 @@
-# util-is-number
+# util-is-array
 
 ## Installation
 
 ```sh
-yarn add util-is-number
+yarn add util-is-array
 ```
 
 ## Usage
 
 ```js
-import isNumber from 'util-is-number'
+import isArray from 'util-is-array'
 
-console.log(isNumber('foo')) // false
+console.log(isArray(['foo'])) // true
 ```
 
 ## License
