@@ -1,6 +1,6 @@
 {
   "name": "checkok-equal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
-    "checkok": "^0.0.3",
+    "checkok": "^0.0.4",
     "jest": "^23.6.0",
     "rimraf": "^2.6.2",
     "rollup": "^0.67.3",
