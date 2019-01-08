@@ -1,4 +1,5 @@
 import typescript from 'rollup-plugin-typescript2'
+import autoExternal from 'rollup-plugin-auto-external'
 
 import pkg from './package.json'
 
@@ -18,8 +19,8 @@ export default {
       sourcemap: true,
     },
   ],
-  external: ['util-result'],
   plugins: [
+    autoExternal(),
     typescript({
       rollupCommonJSResolveHack: true,
     }),
