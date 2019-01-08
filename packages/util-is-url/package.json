@@ -1,6 +1,6 @@
 {
   "name": "util-is-url",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
