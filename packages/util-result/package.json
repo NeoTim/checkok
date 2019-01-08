@@ -1,7 +1,7 @@
 {
   "name": "util-result",
   "version": "0.0.3",
-  "description": "An elegant and scalable validator",
+  "description": "result util",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -33,14 +33,15 @@
   "bugs": {
     "url": "https://github.com/forsigner/checkok/issues"
   },
-  "homepage": "https://github.com/forsigner/checkok#README",
+  "homepage": "https://github.com/forsigner/checkok/blob/master/packages/util-result/README.md",
   "devDependencies": {
-    "@types/jest": "^23.3.10",
+    "@types/jest": "^23.3.12",
     "jest": "^23.6.0",
-    "rimraf": "^2.6.2",
-    "rollup": "^0.67.3",
-    "rollup-plugin-typescript2": "^0.18.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.0.2",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.18.1",
     "ts-jest": "^23.10.5",
-    "typescript": "^3.2.1"
+    "typescript": "^3.2.2"
   }
 }

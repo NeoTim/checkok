@@ -1,7 +1,7 @@
 {
   "name": "checkok-max",
   "version": "0.1.2",
-  "description": "An elegant and scalable validator",
+  "description": "Max validator for checkok",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -33,21 +33,21 @@
   "bugs": {
     "url": "https://github.com/forsigner/checkok/issues"
   },
-  "homepage": "https://github.com/forsigner/checkok#README",
+  "homepage": "https://github.com/forsigner/checkok/blob/master/packages/checkok-max/README.md",
   "dependencies": {
-    "rollup-plugin-auto-external": "^2.0.0",
     "util-is-number": "^0.0.3",
     "util-is-string": "^0.0.3",
     "util-result": "^0.0.3"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.10",
+    "@types/jest": "^23.3.12",
     "checkok": "^0.0.5",
     "jest": "^23.6.0",
-    "rimraf": "^2.6.2",
-    "rollup": "^0.67.3",
-    "rollup-plugin-typescript2": "^0.18.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.0.2",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.18.1",
     "ts-jest": "^23.10.5",
-    "typescript": "^3.2.1"
+    "typescript": "^3.2.2"
   }
 }
