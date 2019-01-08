@@ -1,6 +1,6 @@
 {
   "name": "checkok-email",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/forsigner/checkok#README",
   "dependencies": {
-    "util-is-email": "^0.1.0",
+    "util-is-email": "^0.2.0",
     "util-result": "^0.0.3"
   },
   "devDependencies": {

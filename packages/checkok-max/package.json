@@ -1,6 +1,6 @@
 {
   "name": "checkok-max",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An elegant and scalable validator",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
