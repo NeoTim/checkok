@@ -12,7 +12,7 @@ yarn add checkok checkok-min
 import { check } from 'checkok'
 import min from 'checkok-min'
 
-const result = check('foobar').pipe(min(3,'some msg'))
+const result = check('foobar').pipe(min(3, 'some msg'))
 
 console.log(result) // { ok: true }
 ```
