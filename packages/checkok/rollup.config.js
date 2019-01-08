@@ -20,8 +20,6 @@ export default {
   ],
   external: [],
   plugins: [
-    typescript({
-      rollupCommonJSResolveHack: true,
-    }),
+    typescript(),
   ],
 }
