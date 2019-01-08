@@ -3,10 +3,5 @@
     "packages/*"
   ],
   "npmClient": "yarn",
-  "command": {
-    "publish": {
-      "conventionalCommits": true
-    }
-  },
   "version": "independent"
 }
