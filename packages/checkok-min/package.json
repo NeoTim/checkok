@@ -1,6 +1,6 @@
 {
   "name": "checkok-min",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Min validator for checkok",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -35,13 +35,13 @@
   },
   "homepage": "https://github.com/forsigner/checkok/blob/master/packages/checkok-min/README.md",
   "dependencies": {
-    "util-is-number": "^0.0.3",
-    "util-is-string": "^0.0.3",
-    "util-result": "^0.0.3"
+    "util-is-number": "^1.0.0",
+    "util-is-string": "^1.0.0",
+    "util-result": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
-    "checkok": "^0.0.5",
+    "checkok": "^1.1.0",
     "jest": "^23.6.0",
     "rimraf": "^2.6.3",
     "rollup": "^1.0.2",

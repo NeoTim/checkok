@@ -1,6 +1,6 @@
 {
   "name": "util-is-number",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "is number util",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

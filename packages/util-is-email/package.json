@@ -1,6 +1,6 @@
 {
   "name": "util-is-email",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "is email util",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

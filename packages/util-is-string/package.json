@@ -1,6 +1,6 @@
 {
   "name": "util-is-string",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "is string util",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
