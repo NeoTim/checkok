@@ -1,7 +1,7 @@
 {
-  "name": "checkok-email",
-  "version": "1.0.0",
-  "description": "Email validator for checkok",
+  "name": "checkok-url",
+  "version": "0.1.0",
+  "description": "Url validator for checkok",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -33,9 +33,9 @@
   "bugs": {
     "url": "https://github.com/forsigner/checkok/issues"
   },
-  "homepage": "https://github.com/forsigner/checkok/blob/master/packages/checkok-email/README.md",
+  "homepage": "https://github.com/forsigner/checkok/blob/master/packages/checkok-url/README.md",
   "dependencies": {
-    "util-is-email": "^1.0.0",
+    "util-is-url": "^1.0.0",
     "util-result": "^1.0.0"
   },
   "devDependencies": {
