@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/forsigner/checkok/blob/master/packages/checkok-url/README.md",
   "dependencies": {
-    "util-is-url": "^1.0.0",
+    "util-is-url": "^1.0.1",
     "util-result": "^1.0.0"
   },
   "devDependencies": {

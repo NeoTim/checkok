@@ -12,8 +12,12 @@ yarn add checkok checkok-string
 import { check } from 'checkok'
 import string from 'checkok-string'
 
-const result = check(123).pipe(string('should be a string'))
+// ok
+const result = check('foo').pipe(string('should be a string'))
+console.log(result) // { ok: true }
 
+// not ok
+const result = check(123).pipe(string('should be a string'))
 console.log(result) // { ok: false, message: 'should be a string' }
 ```
 
