@@ -1,6 +1,6 @@
 {
   "name": "checkok-max",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Max validator for checkok",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
-    "checkok": "^1.1.0",
+    "checkok": "^1.1.1",
     "jest": "^23.6.0",
     "rimraf": "^2.6.3",
     "rollup": "^1.0.2",
